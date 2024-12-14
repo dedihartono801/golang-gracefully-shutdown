@@ -6,11 +6,6 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
-
-	"dating-service/database"
-	"dating-service/pkg/config"
-
-	"github.com/gofiber/fiber/v2"
 )
 
 func main() {
